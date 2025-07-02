@@ -3,7 +3,6 @@ plugins {
     alias(libs.plugins.kotlinAndroid)
     alias(libs.plugins.compose.compiler)
     kotlin("plugin.serialization") version "1.9.10"
-    id("com.google.gms.google-services")
 }
 
 android {
